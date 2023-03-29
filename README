@@ -1,0 +1,39 @@
+Au cours de cette soutenance, notre groupe a produit de nombreux efforts pour
+produire des éléments fonctionnels pour la première soutenance. La difficul-
+té était d'implémenter des fonctionnalités dans un langage qui nous était 
+jusqu'alors inconnu. Nous sommes satisfaits de nos résulats, et comptons bien
+redoubler d'efforts pour la prochaine soutenance.
+
+==============================================================================
+
+##############################
+# Comment tester notre code ?#
+##############################
+
+Réseau de neurones :
+
+	1- Aller dans "neural_network\"
+	2- Faire "make all" dans un terminal
+	3- Entrer enfin "./main"
+	Vous trouverez les résultats renvoyés par le réseau de neurones avec
+	les inputs 1 et 2 et le résultat qui leurs correspond.
+
+Solver:
+
+	1- Aller dans "solver\"
+	2- Faire "make all" dans un terminal
+	3- Entrer enfin "./solver grid_00"
+	4- Le fichier "grid_00.result" est apparu, pour l'afficher:
+		Utiliser cat
+
+Traitement d'image:
+	
+	1- Aller à la racine du dossier "hugo.ternisien\"
+	2- Faire "make all" dans un terminal
+	3- Executer ensuite "./main images/nom_de_l'image" pour tester.
+		"nom_de_l'image" correspond au fichier que vous
+		souhaitez tester.
+	4- Regarder les images générées dans le dossier "hugo.ternisien\" :
+		Les différents traitement se sont appliqués correctement,
+		les deux dernières images correspondent à la rotation manuelle,
+		l'une d'entres elles rotationne l'image et la redimensionne.
